@@ -1,4 +1,4 @@
-- 👋 Hi, I’m @LucasBzGlt
+- 👋 Hi, I’m @Lepitshiro
 - 👀 I’m interested in programming (python, HTML, CSS). I'm still new to this field, so I pratice it was entertainment.
 - 🌱 I'm currently learning the python language in high school and at home, I practice HTML and CSS.
 - 💞️ I'm not looking to collaborate at the moment !
