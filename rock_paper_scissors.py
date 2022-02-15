@@ -25,7 +25,7 @@ else:
     list_r_p_s = ["Rock","Paper","Scissors"]
     print('#'*50)
     answer = str(input('Choose between: Rock, Paper, Scissors = '))
-    answer_ennemie = choice(list_r_p_s)
+    answer_enemy = choice(list_r_p_s)
     if bo %2 == 0:
         a = bo/2 +1
     else:
@@ -33,11 +33,11 @@ else:
 
     while counter[0] <= a-1 and counter[1] <= a-1:
         print('#'*50)
-        if validity(answer,answer_ennemie):
+        if validity(answer,answer_enemy):
             print('Nice answer !')
             counter[0]+=1
             print(counter)
-        elif not validity(answer,answer_ennemie):
+        elif not validity(answer,answer_enemy):
             print('Bad answer !')
             counter[1]+=1
             print(counter)
@@ -55,5 +55,5 @@ else:
 
         print('#'*50)
         answer = str(input('Choose between: Rock, Paper, Scissors = '))
-        answer_ennemie = choice(list_r_p_s)
+        answer_enemy = choice(list_r_p_s)
         
