@@ -29,7 +29,6 @@ else :
     list_bad_letter : list = []
     list_good_letter : list = []
     trials = 10
-    alphabet = ['A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z']
     mwtf = ''
     for l in mystery_word:
         mwtf += '_'
