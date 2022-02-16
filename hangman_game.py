@@ -26,7 +26,6 @@ else :
     print('Good luck ! :D ')
 
     mystery_word : str =  choice(lines)
-    find = False
     list_bad_letter : list = []
     list_good_letter : list = []
     trials = 10
